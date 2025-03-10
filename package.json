@@ -1,0 +1,24 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.10.1",
+    "click-outside-vue3": "^4.0.1",
+    "flatpickr": "^4.6.13",
+    "nuxt": "^3.16.0",
+    "pinia": "^3.0.1",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "vue": "^3.5.13",
+    "vue-dompurify-html": "^5.2.0",
+    "vue-flatpickr-component": "^11.0.5",
+    "vue-router": "^4.5.0"
+  }
+}
